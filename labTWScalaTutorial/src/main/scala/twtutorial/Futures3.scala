@@ -20,5 +20,5 @@ object Futures3 extends App {
 
   // Exercise: ensure that 1,2,3 are written in order using combinators (see Futures4.scala)
   
-  Thread.sleep(20000)
+  Thread.sleep(2000)
 }
