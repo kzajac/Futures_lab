@@ -36,5 +36,5 @@ object Futures4 extends App {
     case Failure(e)     => e.printStackTrace
   }
 
-  Thread.sleep(20000)
+  Thread.sleep(2000)
 }
