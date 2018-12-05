@@ -16,6 +16,7 @@ object Futures4 extends App {
 
   def asyncWork(n: Int): Future[Int] = Future {
     blocking { Thread.sleep(Random.nextInt(500)) }
+    println(n)
     n
   }
 
