@@ -23,7 +23,10 @@ object Futures4 extends App {
   val result1 = asyncWork(1)
   val result2 = asyncWork(2)
   val result3 = asyncWork(3)
-
+ 
+  // for comprehension is equivalent to
+  // result1.flatMap(r1 => result2.flatMap(r2 => result3.map(r3 => r1 + r2 + r3) ) )
+  
   val sum = for {
     r1 <- result1
     r2 <- result2
