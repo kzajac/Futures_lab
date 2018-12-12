@@ -1,4 +1,4 @@
-name := "Tutorial"
+name := "labTWScalaTutorial"
 
 version := "1.0"
 
