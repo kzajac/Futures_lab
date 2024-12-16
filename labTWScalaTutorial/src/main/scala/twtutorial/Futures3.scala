@@ -9,7 +9,7 @@ import scala.util.Random
 object Futures3 extends App {
 
   def asyncPrint(n: Int): Future[Int] = Future {
-    blocking { Thread.sleep(Random.nextInt(300)) }
+    blocking { Thread.sleep(Random.nextInt(3)) }
     println(n)
     n
   }
