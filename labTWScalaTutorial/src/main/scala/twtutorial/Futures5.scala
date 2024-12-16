@@ -8,8 +8,8 @@ import scala.util.Random
 
 
 // Further reading:
-//  Utilities from Future companion object: https://www.scala-lang.org/api/current/scala/concurrent/Future$.html
-//    - E.g. 'Future.sequence' converts a collection of futures into one future for that collection 
+//  Utilities from Future companion object: https://docs.scala-lang.org/overviews/core/futures.html
+ 
 
 
 object Futures5 extends App {
