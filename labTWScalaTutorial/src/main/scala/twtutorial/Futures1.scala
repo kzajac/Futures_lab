@@ -5,7 +5,7 @@ import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.language.postfixOps
 
-// Documentation: http://www.scala-lang.org/api/current/scala/concurrent/index.html
+// Documentation: https://docs.scala-lang.org/overviews/core/futures.html
 
 object Futures1 extends App {
 
