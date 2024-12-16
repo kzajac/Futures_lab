@@ -8,7 +8,7 @@ import scala.util.Random
 object Futures2 extends App {
 
     val foo = Future {
-        Thread.sleep(Random.nextInt(500))
+        Thread.sleep(Random.nextInt(300))
         42
     }
 
